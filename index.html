@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <style>
+    @keyframes anima {
+        0% {
+            color: rgba(0, 0, 0, 0);
+        }
+        50% {
+            color: rgba(0, 0, 0, 100);
+        }
+        100% {
+            color: rgba(0, 0, 0, 0);
+        }
+    }
+    body {
+        background-color: rgb(237, 225, 251);
+        color: rgb(55, 52, 52);
+    }
+    #section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-around;
+        gap: 10px 20px;
+    }
+    #fixed-section {
+        font-size: 190%;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        width: 100%;
+    }
+    h2 {
+        font-size: 170%;
+    }
+    #dost {
+        text-align: justify;
+    }
+    #history {
+        flex-grow: 1;
+        border: 5px dotted #90859a;
+        padding: 10px;
+        background-color: white;
+    }
+    #dostop {
+        flex-grow: 1;
+        border: 5px dotted #90859a;
+        padding: 10px;
+        flex-basis: 45%;
+        background-color:white;
+    }
+    #symbols {
+        flex-grow: 1;
+        border: 5px dotted #90859a;
+        padding: 10px;
+        flex-basis: 45%;
+        background-color: white;
+    }
+    #photo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px 20px;
+        flex-grow: 1;
+    }
+    #maps {
+        flex-basis: 100%;
+    }
+    .anim {
+        animation: anima 2s infinite;
+    }
+    #new {
+        flex-grow: 1;
+        border: 5px dotted #90859a;
+        padding: 10px;
+        flex-basis: 45%;
+        background-color:white;
+    }
+    #something {
+        flex-grow: 1;
+        border: 5px dotted #90859a;
+        padding: 10px;
+        flex-basis: 45%;
+        background-color:white;
+    }
+    #news {
+        padding: 30px;
+    }
+    .news {
+        display:grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        justify-content: end;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        padding-top: 20%;
+    }
+    #city {
+        flex-grow: 1;
+    }
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogilev</title>
+</head>
+<body>
+    <div id="fixed-section">
+        <div><a style="text-decoration: none;" href="#history">🏛️</div>
+        <div><a style="text-decoration: none;" href="#dostop">🌟</a></div>
+        <div><a style="text-decoration: none;" href="#symbols">💒</a></div>
+        <div><a style="text-decoration: none;" href="#maps">📌</a></div>
+        <div><a style="text-decoration: none;" href="#new">📢</a></div>
+        <div><a style="text-decoration: none;" href="#something">💎</a></div>
+        <div><a style="text-decoration: none;" href="#city">🏙️</a></div>
+        <div><pre>   </pre></div>
+    </div>
+    <div id="section">
+        <div style="margin-top: 20px;"><p> </p></div>
+        <div id="history">
+            <h2>🏛️ История города</h2>
+            <ul style="font-style: italic; font-size: 140%;">
+                <li>Могилёв имеет более чем 750-летнюю историю. Он был важным экономическим и культурным центром в Великом Княжестве Литовском и Речи Посполитой, а во времена Российской империи даже несколько лет (в 1915-1917 гг.) был фактической ставкой Верховного главнокомандующего и считался неофициальной столицей страны.</li>
+                <li>Город сильно пострадал во время Великой Отечественной войны, но сохранил несколько уникальных памятников.</li>
+            </ul>
+        </div>
+        <div id="dostop" style="flex-grow:1">
+            <h2>🌟 Достопримечательности</h2>
+            <div id="dost">
+                <ol style="font-size: 140%; padding-right: 10px;">
+                    <li><b>Могилёвская ратуша:</b> Символ города. Белоснежная башня, с которой открывается прекрасная панорама на исторический центр и реку Днепр.</li>
+                    <li><b>Площадь Звёзд:</b> Современная и необычная достопримечательность. Здесь находится единственный в Беларуси памятник Звездочёту, а также скульптура "Земного шара". Существует поверье, что если загадать желание и потереть определённый предмет, оно сбудется.</li>
+                    <li><b>Пешеходная улица Ленинская:</b> Главная артерия старого города с уютными кафе, сувенирными лавками и отреставрированными зданиями.</li>
+                    <li><b>Никольский женский монастырь:</b> Комплекс XVII века с уникальным деревянным резным иконостасом, который является памятником национального значения.</li>
+                    <li><b>Буйничское поле:</b> Мемориальный комплекс на месте ожесточённых боёв 1941 года. Здесь также находится красивейший этнографический уголок — «Белорусская деревня».</li>
+                </ol>
+            </div>
+        </div>
+        <div id="symbols">
+            <h2 style="text-align: center;">💒 Символы страны</h2>
+            <br><br><br><br>
+            <div id="photo">
+                <img style="width: 250px; height: 250px" src="C:\Users\ASUS\OneDrive\Desktop\для тестов\gerb.jpg" alt="Герб">
+                <img style="width: 250px; height: 170px" src="C:\Users\ASUS\OneDrive\Desktop\для тестов\flag.jpg" alt="Флаг">
+            </div>
+        </div>
+        <div id="maps">
+            <h2 style="text-align: center;">📌 Расположение на карте</h2>
+            <div style="text-align: center">
+                <img style="width: 1450px; height: 1050px" src="C:\Users\ASUS\OneDrive\Desktop\для тестов\map.jpg" alt="Карта">
+            </div>
+        </div>
+        <div id="new">
+            <h2 style="text-align: center;"><span class="anim">📢</span> Новости</h2>
+            <div class="news" style="font-size: 140%">
+                <div class="images">
+                    <img style="width: 60%; border-radius: 4px;" src="C:\Users\ASUS\OneDrive\Desktop\для тестов\podn.jpg" alt="Подниколье">
+                </div>
+                <p><b>🎡 Преображение Подниколья: создание нового туристического кластера.</b> Это, пожалуй, самый масштабный и обсуждаемый проект. Исторический район вокруг Никольского монастыря активно благоустраивают: ремонтируют мостовые, восстанавливают фасады, создают пешеходные зоны. Цель — превратить его в главную точкой притяжения для туристов.</p>
+                <div class="images">
+                    <img style="width: 60%; border-radius: 4px;" src="C:\Users\ASUS\OneDrive\Desktop\для тестов\ut.jpg" alt="Подниколье">
+                </div>
+                <p><b>🤖 Открытие IT-академии или коворкинг-пространств.</b> Как и по всей Беларуси, в Могилёве растёт спрос на IT-специалистов. В последнее время открываются новые образовательные центры и коворкинги, направленные на поддержку IT-сообщества и стартапов.</p>
+            </div>
+        </div>
+        <div id="something">
+            <h2 style="text-align: center;">💎 Информация на усмотрение</h2>
+            <ol style="font-size: 140%; padding-right: 10px;">
+                <li><b>«Могила Льва»: загадка названия.</b><br>Самая популярная версия происхождения названия города — от имени князя Льва Могия (Мамая). Согласно легенде, он был похоронен на высоком берегу Днепра в «могиле льва», вокруг которой и вырос город.</li>
+                <li><b>Битва за «Железного Арни».</b><br>В 2001 году в Могилёве установили один из первых в мире памятников Арнольду Шварценеггеру в роли Терминатора. Необычный памятник быстро стал культовым, но вскоре был демонтирован из-за споров о авторских правах. Эта история до сих пор вспоминается как курьёзный и яркий эпизод в жизни города.</li>
+                <li><b>Буйничское поле — литературная слава.</b><br>Мемориал «Буйничское поле» посвящён героям Великой Отечественной войны. Но он имеет и литературную ценность: именно здесь, по завещанию, был развеян прах известного русского писателя Константина Симонова, который описал оборону Могилёва в романе «Живые и мёртвые».</li>
+            </ol>
+        </div>
+        <div id="city">
+            <h2 style="text-align: center;">🏙️ Город сейчас</h2>
+            <div style="text-align: center;">
+                <img style="width: 100%;" src="C:\Users\ASUS\OneDrive\Desktop\для тестов\now.jpg" alt="Сейчас">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
