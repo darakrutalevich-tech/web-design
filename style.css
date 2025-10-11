@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+    caption-side: top;
+}
+tfoot {
+    background-color: #f9f9f9;
+    font-style: italic;
+}
+mark {
+    background-color: rgb(233, 132, 132);
+    border-radius:2cap;
+    padding: 2px 4px;
+}
+details {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
